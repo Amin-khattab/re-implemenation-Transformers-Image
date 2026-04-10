@@ -8,12 +8,15 @@ This repository explores the question: *how do Vision Transformers stack up agai
 
 ## Repository Structure
 
-├── CNN_Models/
-│   └── ResNet50.py - CNN.py             # ResNet-50 implementation / training
-├── VIT_Models/
-│   └── pre-trained-transformer.py   # Pre-trained ViT fine-tuning
-└── pipe_line.py - LNA.py               # Shared data loading & training pipeline
-
+    .
+    ├── CNN_Models/
+    │   ├── ResNet50.py                   # ResNet-50 implementation / training
+    │   └── CNN.py                        # CNN implementation / training
+    ├── VIT_Models/
+    │   ├── pre-trained-transformer.py    # Pre-trained ViT fine-tuning
+    │   └── LNA.py                        # LNA model
+    ├── pipe_line.py                      # Shared data loading & training pipeline
+    └── README.md
 
 
 ## Models
